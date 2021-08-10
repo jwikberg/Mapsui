@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Mapsui.Wpf</id>
+    <id>Mapsui.Wpf.Net472</id>
     <version>$version$</version>
     <title>Mapsui</title>
     <authors>Paul den Dulk</authors>
@@ -16,7 +16,7 @@
     <language>en-US</language>
     <dependencies>
       <!-- [ or ] is including, ( or ) is excluding -->
-      <group targetFramework="net48">
+      <group targetFramework="net472">
         <dependency id="Mapsui" version="$version$"/>
         <dependency id="BruTile" version="[4.0.0,5.0.0)"/>
         <dependency id="SkiaSharp.Views.WPF" version="[2.80.2,3.0.0)"/>
@@ -29,8 +29,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Mapsui.UI.Wpf\bin\Release\net48\Mapsui.UI.Wpf.dll" target="lib\net48\Mapsui.UI.Wpf.dll" />
-    <file src="..\Mapsui.UI.Wpf\bin\Release\net48\Mapsui.Rendering.Xaml.dll" target="lib\net48\Mapsui.Rendering.Xaml.dll" />
+    <file src="..\Mapsui.UI.Wpf\bin\Release\net472\Mapsui.UI.Wpf.dll" target="lib\net472\Mapsui.UI.Wpf.dll" />
+    <file src="..\Mapsui.UI.Wpf\bin\Release\net472\Mapsui.Rendering.Xaml.dll" target="lib\net472\Mapsui.Rendering.Xaml.dll" />
 
     <file src="..\Mapsui.UI.Wpf\bin\Release\netcoreapp3.1\Mapsui.UI.Wpf.dll" target="lib\netcoreapp3.1\Mapsui.UI.Wpf.dll" />
     <file src="..\Mapsui.UI.Wpf\bin\Release\netcoreapp3.1\Mapsui.Rendering.Xaml.dll" target="lib\netcoreapp3.1\Mapsui.Rendering.Xaml.dll" />
